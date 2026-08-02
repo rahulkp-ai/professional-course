@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+ipython-sql
+psycopg2-binary
+jupyter
+prettytable>=2.0.0,<3.0.0
