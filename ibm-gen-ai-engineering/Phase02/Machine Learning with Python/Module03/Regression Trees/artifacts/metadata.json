@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-14T18:44:18.215071+00:00",
+  "target": "tip_amount",
+  "features": {
+    "numeric": [
+      "VendorID",
+      "passenger_count",
+      "trip_distance",
+      "RatecodeID",
+      "PULocationID",
+      "DOLocationID",
+      "payment_type",
+      "fare_amount",
+      "mta_tax",
+      "tolls_amount",
+      "improvement_surcharge"
+    ]
+  },
+  "dataset": {
+    "rows": 41202,
+    "columns": 13
+  },
+  "model": {
+    "algorithm": "DecisionTreeRegressior",
+    "max_depth": 8,
+    "criterion": "squared_error"
+  },
+  "metrics": {
+    "mse_mean": 25.097612038194004,
+    "mse_std": 1.7478702005349611,
+    "r2_mean": 0.009365066017265144,
+    "r2_std": 0.015003644959076082,
+    "test_mse": 25.192622971264996,
+    "test_rmse": 5.0192253357729415,
+    "test_r2": 0.002641863190821492
+  },
+  "enviroment": {
+    "python": "3.12.9 (main, May 14 2026, 10:42:24) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2"
+  }
+}
