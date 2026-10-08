@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-29T18:50:47.804746+00:00",
+  "target": "Class",
+  "features": {
+    "numeric": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8",
+      "V9",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16",
+      "V17",
+      "V18",
+      "V19",
+      "V20",
+      "V21",
+      "V22",
+      "V23",
+      "V24",
+      "V25",
+      "V26",
+      "V27",
+      "V28",
+      "Amount"
+    ],
+    "total_count": 29
+  },
+  "dataset": {
+    "rows": 284807,
+    "columns": 31
+  },
+  "model": {
+    "algorithm": "LinearSVC",
+    "hyperparameters": {
+      "loss": "squared_hinge",
+      "C": 0.005,
+      "class_weight": "balanced",
+      "fit_intercept": true,
+      "dual": false,
+      "random_state": 42,
+      "test_size": 0.3,
+      "cv_folds": 5
+    }
+  },
+  "metrics": {
+    "accuracy_mean": 0.981691781619322,
+    "accuracy_std": 0.0011669708722036258,
+    "precision_mean": 0.08048701043661892,
+    "precision_std": 0.004326124786774667,
+    "recall_mean": 0.918542199488491,
+    "recall_std": 0.015195585208215194,
+    "f1_mean": 0.14796652791152098,
+    "f1_std": 0.007272175534878348,
+    "roc_auc_mean": 0.9816371276372726,
+    "roc_auc_std": 0.006831175175461767,
+    "test_accuracy": 0.9813559917137741,
+    "test_precision": 0.07574867880211392,
+    "test_recall": 0.8716216216216216,
+    "test_f1": 0.1393841166936791,
+    "test_roc_auc": 0.9692334869602002
+  },
+  "environment": {
+    "python": "3.12.9 (main, May 14 2026, 10:42:24) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit_learn": "1.5.0"
+  }
+}

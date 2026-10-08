@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+.ipynb_checkpoints/
+*.ipynb
+predict.py
+regression tree.py
+regression tree.md
