@@ -13,7 +13,7 @@ Each course directory includes a comprehensive textbook/guide in PDF format alon
 
 ---
 
-## 🏆 Course Certificates
+## Course Certificates
 
 This repository includes materials from completed Coursera courses.
 
