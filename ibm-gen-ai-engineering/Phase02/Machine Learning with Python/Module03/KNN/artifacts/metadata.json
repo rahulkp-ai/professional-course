@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-14T11:09:19.711370+00:00",
+  "target": "target",
+  "features": {
+    "numeric": [
+      "sepal length (cm)",
+      "sepal width (cm)",
+      "petal length (cm)",
+      "petal width (cm)"
+    ],
+    "total_count": 4
+  },
+  "dataset": {
+    "rows": 150,
+    "columns": 5
+  },
+  "model": {
+    "algorithm": "KNeighborsClassifier",
+    "hyperparameters": {
+      "n_neighbors": 4,
+      "weights": "distance",
+      "metric": "euclidean",
+      "random_state": 42,
+      "test_size": 0.2,
+      "cv_folds": 5
+    }
+  },
+  "metrics": {
+    "accuracy_mean": 0.9666666666666668,
+    "accuracy_std": 0.016666666666666653,
+    "precision_mean": 0.9703703703703702,
+    "precision_std": 0.014814814814814836,
+    "recall_mean": 0.9666666666666668,
+    "recall_std": 0.016666666666666653,
+    "f1_mean": 0.9665359477124185,
+    "f1_std": 0.016732026143790834,
+    "test_accuracy": 0.9666666666666667,
+    "test_precision": 0.9696969696969697,
+    "test_recall": 0.9666666666666667,
+    "test_f1": 0.9665831244778613,
+    "test_roc_auc": 1.0
+  },
+  "environment": {
+    "python": "3.12.9 (main, May 14 2026, 10:42:24) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit_learn": "1.5.0"
+  }
+}
