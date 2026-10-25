@@ -17,10 +17,10 @@ Each course directory includes a comprehensive textbook/guide in PDF format alon
 
 This repository includes materials from completed Coursera courses.
 
-| Course                              | Status       | Certificate ID | Verification                                                                             |
-| ----------------------------------- | ------------ | -------------- | ---------------------------------------------------------------------------------------- |
-| Geometry and Calculus for Computing | Completed ✅ | QDXTI5AWJ6BT   | [View Certificate](https://www.coursera.org/account/accomplishments/verify/QDXTI5AWJ6BT) |
-| Matrix Algebra for Engineers        | Completed ✅ | G9TYVT2D048H   | [View Certificate](https://www.coursera.org/account/accomplishments/verify/G9TYVT2D048H) |
+| Course                              | Status    | Certificate ID | Verification                                                                             |
+| ----------------------------------- | --------- | -------------- | ---------------------------------------------------------------------------------------- |
+| Geometry and Calculus for Computing | Completed | QDXTI5AWJ6BT   | [View Certificate](https://www.coursera.org/account/accomplishments/verify/QDXTI5AWJ6BT) |
+| Matrix Algebra for Engineers        | Completed | G9TYVT2D048H   | [View Certificate](https://www.coursera.org/account/accomplishments/verify/G9TYVT2D048H) |
 
 ### Certificate Badges
 
